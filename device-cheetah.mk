@@ -114,6 +114,9 @@ PRODUCT_PACKAGES += \
 	Tag \
 	android.hardware.nfc-service.st
 
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
 # SecureElement
 PRODUCT_PACKAGES += \
 	android.hardware.secure_element@1.2-service-gto \
